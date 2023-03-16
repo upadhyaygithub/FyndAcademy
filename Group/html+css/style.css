@@ -1,0 +1,143 @@
+.head{
+    height: 600px;
+    width: 1250px;
+    background: rgb(119, 157, 6);
+    margin: 60px auto;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px rgb(91, 95, 91), -2px -2px 3px rgba(230, 228, 226, 0.377);
+}
+
+body{
+    background-color: rgb(134, 174, 15);
+}
+
+.container p{
+    /* transform: translate(150px, px); */
+    margin-left: 105px;
+    letter-spacing: 2px;
+    font-weight: 1000;
+    color: white;
+    font-size: 30px;
+}
+
+.container{
+    /* display: inline-block; */
+    width: inherit;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    /* border-radius: 25px; */
+}
+
+.container ul li{
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 2px;
+    
+}
+
+.container ul{
+    margin-left: 350px;   
+}
+
+
+.mid{
+    display: flex;
+    width: inherit;
+    align-items: center;
+}
+
+.midEle{
+    background: transparent;
+    /* width: 50%; */
+    height: 400px;
+}
+
+#id1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    width: fit-content;
+    color: white;
+    margin-top: 25px;
+}
+
+.brownie{
+    font-size: 55px;
+    line-height: 45px;
+    letter-spacing: 6px;
+    margin-bottom: 0;
+    height: fit-content;
+    font-weight: 800;
+    font-style:unset;
+}
+
+#tips{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+#id2{
+    background: url(./brownie.jpg);
+    background-size: 100% 100%;
+    border-radius: 150px 0 0 150px;
+    width: 900px;
+    margin-left: 95px;
+    margin-bottom: 50px;
+}
+
+#id1 hr{
+    background-color: white;
+    border-color: white;
+    width: 300px;
+    margin-left: 0;
+    
+}
+
+.bookings{
+    display: flex;
+    margin-top: 0px;
+    /* height: 60px; */
+}
+
+#how{
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.652);
+    padding: 4px 6px 4px 6px;
+}
+
+#book{
+    
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.653);
+    padding: 4px 6px 4px 6px;
+    margin-left: 10px;
+}
+
+#time{
+    margin-left: 70px;
+    padding-top: 4px;
+}
+
+#read{
+    width: fit-content;
+    background-color: black;
+    padding: 5px 15px 5px 15px;
+    border-radius: 25px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+.footer{
+    width: inherit;
+    height: 100px;
+    background-color: white;
+    border-radius: 0 0 25px 25px;
+}
