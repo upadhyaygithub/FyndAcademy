@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Permanent+Marker&family=Poppins:wght@400;700&display=swap');
+:root{
+    --primary-color: #d63031;
+    --secondary-color: #636e72;
+    --font: 'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn{
+    padding: .6rem .8rem;
+    text-transform: uppercase;
+    font-family: var(--font);
+    background: var(--primary-color);
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    outline: none;
+    border: 2px solid var(--primary-color);
+    transition: .3s;
+    cursor: pointer;
+    border-radius: 30px;
+
+}
+.btn:hover{
+    background: transparent;
+}
+body{
+    background-color: black;
+    font-family: var(--font);
+}
+
+nav{
+    /* position: fixed; */
+    width: 100vw;
+    height: 60px;
+    border-top: .5rem solid var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -20px;
+    /* z-index: 999999; */
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    width: 15%;
+    font-weight: 700;
+    background: var(--primary-color);
+    border-bottom-right-radius: 30px;
+}
+.logo::before{
+    content: "BLOOD-";
+    margin-left: 20px;
+    color: white;
+}
+.logo::after{
+    content: "FAMILY";
+    color: black;
+}
+ul{
+    display: flex;
+    align-items: center;
+    height: 60px;
+   
+}
+ul a{
+    text-decoration: none;
+    color: white;
+    margin: 0 2rem;
+    
+    text-transform: uppercase;
+    font-family: var(--font);
+    font-weight: 700;
+    font-size: 16px;
+
+}
+ul li{
+    list-style: none;
+}
+ul a:hover{
+    color: var(--primary-color);
+}
+.banner{
+    background: url(lady.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    height: 100vh;
+}
+.intro{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: white;
+}
+.intro h2,p{
+    display: block;
+    width: 60%;
+}
+.intro h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.intro .btn{
+    margin-top: 2rem;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    width: 33.3%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    margin: 10px;
+    
+}
+.card h2{
+    text-transform: uppercase;
+}
+.tdh{
+    display: flex;
+    justify-content: center;
+}
+.umang{
+    color: #f3971b;
+    font-size: 2.5rem;
+    /* margin-top: -10px */
+    padding-top: 100px;
+    text-decoration: none;
+    margin-bottom: 6px;
+}
+.umang:hover{
+
+    font-size: 2.9rem;
+
+}
+
+.sex69{
+
+    text-overflow: hidden;
+
+}
+
+.course-sec{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.course-sec .course-card{
+	width: 50%;
+	position: relative;
+}
+.course-sec .course-card img{
+	width: 100%;
+	height: 100%;
+    border-radius: 50px;
+}
+.course-sec .course-card .course-intro{
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	z-index: 2;
+	width: 80%;
+	color: var(--secondary-color);
+	text-align: center;
+}
+.course-intro .course-title{
+	font-size: 50px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.course-intro p{
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+	font-size: 18px;
+	letter-spacing: 1px;
+	margin-bottom: 3rem;
+}
+.offer-sec{
+	padding: 2rem 0;
+}
+
+.section-title{
+	text-align: center;
+	font-size: 100px;
+	display: block;
+	color: #2c234d;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+	-webkit-text-stroke: 1px #f6f7f8;
+	-webkit-text-fill-color: transparent;
+	padding: 1rem 0;
+    
+}
+
+
+.offer-sec .offer-row{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.offer-row .offer-card{
+	margin: 0 1rem;
+	width: 350px;
+    border-radius: 50px;
+}
+.offer-row .offer-card .offer-intro{
+	color: var(--secondary-color);
+	text-align: center;
+}
+.offer-card .offer-intro h2{
+	font-size: 30px;
+	font-weight: 500;
+	margin: 14px 0;
+	text-transform: uppercase;
+}
+.offer-card .offer-intro p{
+	font-size: 16px;
+	width: 90%;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	letter-spacing: 1px;
+	font-family: 'Roboto', sans-serif;
+}
+.offer-card img{
+    border-radius: 30px;
+}
+
+
+
+.about-sec{
+	display: flex;
+	justify-content: center;
+	padding: 5rem 0;
+	background: #34495e;
+	/* margin-top: 1rem; */
+}
+.about-card{
+	width: 40%;
+	margin: 0 1rem;
+}
+.about-card img{
+	width: 100%;
+	height: 65%;
+    border-radius: 20px;
+    justify-content: center;
+    background-image: url(main2.jpg);
+    background-size: 100vh;
+    opacity: 0.5;
+}
+.about-intro{
+	padding: 0 2rem;
+	color: var(--secondary-color);
+}
+.about-intro h1{
+	text-transform: uppercase;
+	font-size: 70px;
+	font-weight: 700;
+	margin-bottom: 1rem;
+    color: white;
+}
+.about-intro p{
+	letter-spacing: 2px;
+	text-align: left;
+	margin-bottom: 3rem;
+	font-size: 18px;
+	line-height: 25px;
+	font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.about-sec{
+    background-image: url(main.avif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.banner span{
+    color: red;
+}
