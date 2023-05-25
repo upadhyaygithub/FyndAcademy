@@ -1,7 +1,27 @@
-# Vue 3 + Vite
+# App Setup
+ 
+Generate an API KEY.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Add your new API KEY to the script inside src/main.js
 
-## Recommended IDE Setup
+And backend/index.js
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+
+
+# Setup Firebase (firestore)
+
+# Add the details to src/firebase-init.js
+
+Now run this command to start the project
+
+npm i
+
+npm run serve
+
+# And to start the backend
+
+#cd backend
+
+npm i
+
+npm run watch
